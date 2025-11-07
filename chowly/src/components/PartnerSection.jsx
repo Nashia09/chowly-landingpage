@@ -1,5 +1,5 @@
 // src/components/PartnerSection.jsx
-import { Button } from "@/components/ui/button";
+import { Button } from "./ui/button";
 
 export default function PartnerSection() {
   const partners = [

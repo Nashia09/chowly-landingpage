@@ -1,13 +1,13 @@
 // src/components/PopularMenu.jsx
-import { Card, CardContent } from "@/components/ui/card";
+import { Card, CardContent } from "./ui/card";
 
 export default function PopularMenu() {
   const menus = [
-    { name: "Amala", img: "/menu/amala.jpg" },
-    { name: "Jollof Rice", img: "/menu/jollof-rice.jpg" },
-    { name: "Pasta", img: "/menu/pasta.jpg" },
-    { name: "Pizza", img: "/menu/pizza.jpg" },
-    { name: "Breakfast", img: "/menu/breakfast.jpg" },
+    { name: "Amala", img: "/amala.jpg" },
+    { name: "Jollof Rice", img: "/jollof-rice.jpg" },
+    { name: "Pasta", img: "/pasta.jpg" },
+    { name: "Pizza", img: "/pizza.jpg" },
+    { name: "Breakfast", img: "/breakfast.jpg" },
   ];
 
   return (

@@ -1,13 +1,13 @@
 // src/components/Navbar.jsx
 import { Link } from "react-router-dom";
-import { Button } from "@/components/ui/button";
+import { Button } from "./ui/button";
 
 export default function Navbar() {
   return (
     <nav className="flex justify-between items-center px-6 md:px-12 py-4 bg-white shadow-sm sticky top-0 z-50">
       {/* Logo */}
       <div className="flex items-center gap-2 text-2xl font-bold text-orange-500">
-        <img src="/logo.svg" alt="Chowly Logo" className="w-8 h-8" />
+        <img src="/Logo.png" alt="Chowly Logo" className="w-8 h-8" />
         Chowly
       </div>
 

@@ -1,5 +1,5 @@
 // src/components/PopularRestaurants.jsx
-import { Card, CardContent } from "@/components/ui/card";
+import { Card, CardContent } from "./ui/card";
 
 export default function PopularRestaurants() {
   const restaurants = [
